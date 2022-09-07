@@ -7,6 +7,7 @@
     background-color: cadetblue;
     padding: 10px;
     border-radius: 15px;
+    background-image: url('./city.gif');
 }
 
 .container {

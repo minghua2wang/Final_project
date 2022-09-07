@@ -9,7 +9,7 @@ function Header() {
         <div className="header">
             <img className='pikachu' src={pikachu} />
             <div className='title'>
-                <h1>A RANDOM WEBSITE</h1>
+                <h1>RANDOM WEBSITE</h1>
                 <h2>Minghua'S PROJECT - LOGIN WITH GOOGLE</h2>
             </div>
             <div className='weath'>
