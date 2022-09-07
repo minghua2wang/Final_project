@@ -7,7 +7,7 @@
 }
 
 #signInDiv {
-    margin: 10px 10px 10px 270px;
+    margin: 10px 10px 10px 250px;
 }
 
 .signout {
@@ -26,4 +26,8 @@ h3 {
 
 img {
     border-radius: 10px;
+}
+
+.form-title {
+    font-size: 50px;
 }

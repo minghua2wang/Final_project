@@ -22,7 +22,8 @@ function Weather() {
     return (
         <div className='weather'>
             <div className='search'>
-                <input 
+                <input
+                spellCheck="false"
                 value={location}
                 onChange={event => setLocation(event.target.value)}
                 onKeyPress={searchLocation}

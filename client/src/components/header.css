@@ -14,11 +14,25 @@ h2 {
 
 .title {
     display: inline-block;
-    padding: 20px 40px;
+    padding: 10px;
     color: white;
 }
 
 .weath {
     display: inline-flex;
     margin: 0 0 0 1000px;
+    z-index: 1;
+}
+
+.pikachu {
+    height: 40%;
+    margin: 0;
+}
+
+.train {
+    height: 120px;
+    width: 1100px;
+    position: absolute;
+    margin: 0;
+    border-radius: 0;
 }

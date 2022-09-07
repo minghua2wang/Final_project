@@ -36,6 +36,7 @@ function Login() {
     })
     return (
     <div id="login" className='login'>
+        <h1 className='form-title'>FORM</h1>
         <div id="signInDiv"></div>
         { user &&
         <div>
