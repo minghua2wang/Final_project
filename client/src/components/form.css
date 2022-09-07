@@ -1,10 +1,9 @@
 .form-container {
-    background-color: blueviolet;
     padding: 20px;
 }
 
 .form {
-    background-color: brown;
+    background-color:darkseagreen;
     margin: 50px;
     padding: 10px;
     text-align: right;
@@ -14,10 +13,26 @@
 
 .form-container input {
     margin: 10px;
+    padding: 10px;
     border: none;
-    width: 500px;
+    width: 80%;
 }
 
 .big {
     height: 200px;
+}
+
+.submit {
+    background-color: darkcyan;
+    border: none;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
 }

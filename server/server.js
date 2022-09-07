@@ -2,11 +2,18 @@ const express = require('express');
 const { MongoClient } = require('mongodb');
 require("dotenv").config();
 const { MONGO_URI } = process.env;
+const bodyParser = require("body-parser")
+
+const app = express();
 
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }
+
+app.use(bodyParser.urlencoded({extended: true}));
+
+const client = new MongoClient(MONGO_URI, options); 
 
 const dbFunction = async (dbName) => {
     const client = new MongoClient(MONGO_URI, options);
@@ -21,6 +28,10 @@ const dbFunction = async (dbName) => {
 
     client.close();
     console.log("disconnected!");
-};
+}
 
-dbFunction("minghua");
+app.get("/", function(req, res) {
+    res.send("express")
+})
+
+app.listen(8000);

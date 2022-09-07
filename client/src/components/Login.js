@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import jwt_decode from 'jwt-decode';
 import Form from './Form';
 
+import './login.css';
+
 function Login() {
 
     const [ user, setUser ] = useState({});
@@ -33,7 +35,7 @@ function Login() {
     )
     })
     return (
-    <div id="login">
+    <div id="login" className='login'>
         <div id="signInDiv"></div>
         { user &&
         <div>
@@ -43,7 +45,7 @@ function Login() {
         }
         {
         Object.keys(user).length !== 0 &&
-        <button onClick={ (e) => handleSignOut(e) }>Sign Out</button>
+        <button className='signout' onClick={ (e) => handleSignOut(e) }>Sign Out</button>
         }
         {
             Object.keys(user).length !== 0 &&

@@ -4,6 +4,13 @@
     padding: 10px;
 }
 
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 20px;
+}
 
 .title {
     display: inline-block;

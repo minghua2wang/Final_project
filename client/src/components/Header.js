@@ -6,7 +6,7 @@ function Header() {
         <div className="header">
             <div className='title'>
                 <h1>MINGHUA's project</h1>
-                <p>log in to access</p>
+                <h2>.log in to access</h2>
             </div>
             <div className='weath'>
                 <Weather></Weather>
