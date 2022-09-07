@@ -8,6 +8,7 @@
     padding: 10px;
     border-radius: 15px;
     background-image: url('./city.gif');
+    box-shadow: 2px 4px 9px 0px #000000;
 }
 
 .container {

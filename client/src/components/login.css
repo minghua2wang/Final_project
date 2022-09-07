@@ -4,6 +4,7 @@
     padding: 20px 30px;
     border-radius: 5px;
     width: 800px;
+    box-shadow: 2px 4px 9px 0px #000000;
 }
 
 #signInDiv {
