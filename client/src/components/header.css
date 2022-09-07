@@ -1,0 +1,17 @@
+.header {
+    background-color: cadetblue;
+    height: 300px;
+    padding: 10px;
+}
+
+
+.title {
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+}
+
+.weath {
+    display: inline-flex;
+    margin: 0 0 0 1000px;
+}

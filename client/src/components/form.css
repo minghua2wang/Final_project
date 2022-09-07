@@ -1,0 +1,23 @@
+.form-container {
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.form {
+    background-color: brown;
+    margin: 50px;
+    padding: 10px;
+    text-align: right;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.form-container input {
+    margin: 10px;
+    border: none;
+    width: 500px;
+}
+
+.big {
+    height: 200px;
+}

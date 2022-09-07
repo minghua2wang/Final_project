@@ -1,0 +1,46 @@
+
+
+
+.weather {
+    width: 500px;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.weather .search {
+    text-align: center;
+}
+
+.weather input {
+    padding: 10px 25px;
+    font-size: 20px;
+    background: rgba(250, 250, 250, 0.7);
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.weather .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: rgba(250, 250, 250, 0.7);
+    margin: 10px 10px;
+    border-radius: 15px;
+    color: grey;
+    padding: 10px;
+}
+
+.weather .top {
+    text-align: center;
+    padding: 10px;
+}
